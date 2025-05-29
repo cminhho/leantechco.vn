@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeanTechCo - Giải pháp chuyển đổi số toàn diện và tinh gọn cho doanh nghiệp Việt Nam</title>
+    <meta name="description" content="LeanTechCo cung cấp giải pháp chuyển đổi số doanh nghiệp toàn diện với các sản phẩm Lean ERP, Lean HRM, Lean WORK và Lean SEARCH. Tăng 40% hiệu suất, giảm 30% chi phí quản trị và tối ưu hóa quy trình vận hành.">
+    <meta name="keywords" content="chuyển đổi số doanh nghiệp, phần mềm ERP Việt Nam, phần mềm quản lý nhân sự, giải pháp quản lý doanh nghiệp, phần mềm quản lý công việc, LeanTechCo">
+    <meta name="theme-color" content="#1331d2">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="LeanTechCo - Giải pháp chuyển đổi số toàn diện và tinh gọn cho doanh nghiệp Việt Nam">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leantech.vn/">
+    <meta property="og:description" content="LeanTechCo cung cấp giải pháp chuyển đổi số doanh nghiệp toàn diện với các sản phẩm Lean ERP, Lean HRM, Lean WORK và Lean SEARCH. Tăng 40% hiệu suất, giảm 30% chi phí quản trị.">
+    <meta property="og:image" content="https://leantech.vn/img/product/product-hrm.png">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/automq-style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Mobile meta tags -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#1331d2">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "LeanTechCo",
+      "url": "https://leantech.vn",
+      "logo": "https://leantech.vn/img/logo.png",
+      "description": "Giải pháp chuyển đổi số toàn diện và tinh gọn cho doanh nghiệp Việt Nam với các sản phẩm Lean ERP, Lean HRM, Lean WORK và Lean SEARCH.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Số 5 Đường số 3, Khu phố 2, Phường An Khánh",
+        "addressLocality": "Thành phố Thủ Đức",
+        "addressRegion": "Thành phố Hồ Chí Minh",
+        "postalCode": "700000",
+        "addressCountry": "VN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+84906246489",
+        "contactType": "customer service",
+        "email": "info@LeanTechCocom"
+      },
+      "sameAs": [
+        "https://www.facebook.com/leantechco",
+        "https://www.linkedin.com/company/leantechco",
+        "https://www.youtube.com/channel/leantechco"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Lean HRM",
+          "description": "Phần mềm quản lý nhân sự toàn diện của LeanTechCo được thiết kế riêng cho doanh nghiệp Việt Nam"
+        },
+        {
+          "@type": "Offer",
+          "name": "Lean ERP",
+          "description": "Nền tảng ERP tiên tiến được phát triển dựa trên nhu cầu thực tế của doanh nghiệp Việt Nam"
+        },
+        {
+          "@type": "Offer",
+          "name": "Lean WORK",
+          "description": "Phần mềm quản lý công việc và dự án thông minh số 1 Việt Nam"
+        },
+        {
+          "@type": "Offer",
+          "name": "Lean SEARCH",
+          "description": "Giải pháp tìm kiếm doanh nghiệp thông minh với công nghệ AI tối tân"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Menu Overlay -->
+    <div class="menu-overlay"></div>
+    
+    <!-- Header -->
+    <header class="header" style="background-color: #1331d2; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1); transition: all 0.3s ease;">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" aria-label="Trang chủ LeanTechCo">
+                        <div class="logo-title">
+                            <span class="logo-lean" style="color: white;">lean</span>
+                            <span class="logo-tech" style="color: white;">tech</span>
+                            <span class="logo-co" style="color: #00B8FF;">co.</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-menu" aria-label="Điều hướng chính">
+                    <ul>
+                        <li><a href="#home" style="color: rgba(255, 255, 255, 0.9); transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF';" onmouseout="this.style.color='rgba(255, 255, 255, 0.9)';">
+                            Trang chủ</a></li>
+                        <li><a href="#solutions" style="color: rgba(255, 255, 255, 0.9); transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF';" onmouseout="this.style.color='rgba(255, 255, 255, 0.9)';">
+                            Giải pháp</a></li>
+                        <li><a href="#products" style="color: rgba(255, 255, 255, 0.9); transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF';" onmouseout="this.style.color='rgba(255, 255, 255, 0.9)';">
+                            Sản phẩm</a></li>
+                        <li><a href="#services" style="color: rgba(255, 255, 255, 0.9); transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF';" onmouseout="this.style.color='rgba(255, 255, 255, 0.9)';">
+                            Dịch vụ</a></li>
+                        <li><a href="#clients" style="color: rgba(255, 255, 255, 0.9); transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF';" onmouseout="this.style.color='rgba(255, 255, 255, 0.9)';">
+                            Đối tác</a></li>
+                        <li><a href="#contact" style="color: rgba(255, 255, 255, 0.9); transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF';" onmouseout="this.style.color='rgba(255, 255, 255, 0.9)';">
+                            Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="#contact" class="btn btn-sm" style="background: white; color: #1331d2; border: 1px solid #1331d2; box-shadow: 0 4px 12px rgba(19, 49, 210, 0.15); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 15px rgba(19, 49, 210, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(19, 49, 210, 0.15)';">Báo giá dịch vụ</a>
+                    <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Mở menu điều hướng" style="background-color: rgba(255, 255, 255, 0.1); color: white; border-radius: 24px; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='rgba(255, 255, 255, 0.2)';" onmouseout="this.style.backgroundColor='rgba(255, 255, 255, 0.1)';">
+                        <i class="fas fa-bars" style="color: white;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="wave-bg"></div>
+            <div class="hero-particles"></div>
+            <div class="hero-gradient" style="background: radial-gradient(circle at 70% 30%, rgba(47, 75, 154, 0.3) 0%, rgba(19, 49, 210, 0) 60%);"></div>
+            <div class="dynamic-shapes">
+                <div class="dynamic-shape shape-1"></div>
+                <div class="dynamic-shape shape-2"></div>
+                <div class="dynamic-shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Giải pháp chuyển đổi số <span style="color: #00B8FF; font-weight: 700;">toàn diện & tinh gọn</span> cho doanh nghiệp</h1>
+                    <p>LeanTechCo cung cấp nền tảng công nghệ tối ưu, giúp doanh nghiệp vận hành hiệu quả với chi phí hợp lý. Chúng tôi đồng hành cùng doanh nghiệp trong hành trình tối ưu hóa thực tế - đơn giản và mang lại kết quả đo lường được.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" style="background: white; color: #1331d2; border: 1px solid #1331d2; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.15); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(19, 49, 210, 0.25)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(19, 49, 210, 0.15)';">Liên hệ tư vấn <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#solutions" class="btn btn-outline" style="background-color: rgba(255, 255, 255, 0.1); color: white; border: 1px solid rgba(255, 255, 255, 0.3); transition: all 0.3s ease; border-radius: 24px;" onmouseover="this.style.transform='translateY(-3px)'; this.style.background='rgba(255, 255, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.background='rgba(255, 255, 255, 0.1)';">Xem giải pháp <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">450+</span>
+                            <span class="stat-label">Người dùng hàng ngày</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Tỉ lệ hài lòng</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Sản phẩm chủ lực</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://www.automq.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/67480fef30f9df5f84f31d36/67eb556b6430868c6d6a798c_automq-home-page.png" alt="Giao diện phần mềm quản trị doanh nghiệp LeanTechCo - bảng điều khiển tổng quan" class="floating" style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path fill="#F9FAFB" fill-opacity="1" d="M0,32L80,53.3C160,75,320,117,480,122.7C640,128,800,96,960,85.3C1120,75,1280,85,1360,90.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="solutions-bg">
+            <div class="solutions-pattern"></div>
+            <div class="solutions-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="section-content">
+                <div class="section-header" style="width: 100%; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    <span class="section-badge">Giải pháp</span>
+                    <h2 style="font-size: clamp(1.8rem, 5vw, 2.75rem);">Giải Pháp <span class="gradient-text">Tinh Gọn & Hiệu Quả</span> Cho Doanh Nghiệp</h2>
+                    <p style="font-size: clamp(1rem, 3vw, 1.1rem); padding: 0 15px;">Chúng tôi <strong>tối ưu quy trình</strong> và <strong>loại bỏ lãng phí</strong> để tạo ra giải pháp công nghệ mang lại <strong>giá trị đo lường được</strong>, <strong>phát triển theo nhu cầu thực tế</strong> và <strong>liên tục cải tiến</strong> theo triết lý LEAN</p>
+                </div>
+                <div class="solutions-grid" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px; width: 100%; max-width: 1200px; margin-left: auto; margin-right: auto;">
+                    <div class="solution-card" data-aos="fade-up" data-aos-delay="100" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                        <div class="solution-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="36" height="36" fill="white"><path d="M208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5 .4-.9 .7-1.1 .8l-.2 .2 0 0 0 0C1 327.2-1.4 334.4 .8 340.9S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.3-11.4C134.1 343.3 169.8 352 208 352zM448 176c0 112.3-99.1 196.9-216.5 207C255.8 457.4 336.4 512 432 512c38.2 0 73.9-8.7 104.7-23.9c7.5 4 16 7.9 25.2 11.4c18.3 6.9 40.3 12.5 62.1 12.5c6.9 0 13.1-4.5 15.2-11.1c2.1-6.6-.2-13.8-5.8-17.9l0 0 0 0-.2-.2c-.2-.2-.6-.4-1.1-.8c-1-.8-2.5-2-4.3-3.7c-3.6-3.3-8.5-8.1-13.3-14.3c-5.5-7-10.7-15.4-14.2-24.7c24.9-29 39.6-64.7 39.6-103.4c0-92.8-84.9-168.9-192.6-175.5c.4 5.1 .6 10.3 .6 15.5z"/></svg>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a;">Tư Vấn & Đào Tạo</h3>
+                        <p style="color: #444; line-height: 1.6; margin-bottom: 20px;">Tư vấn quản trị tinh gọn, TPM, Six Sigma, BSC, KPI, OKR và quản lý dự án. Phương pháp tập trung vào giá trị thực tế và hiệu quả.</p>
+                        <a href="#contact" class="btn-text" style="color: #1331d2; font-weight: 500; display: inline-flex; align-items: center; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF'; this.querySelector('i').style.transform='translateX(5px)';" onmouseout="this.style.color='#1331d2'; this.querySelector('i').style.transform='translateX(0)';">Tìm Hiểu Thêm <i class="fas fa-arrow-right" style="margin-left: 8px; transition: all 0.3s ease;"></i></a>
+                    </div>
+                    <div class="solution-card" data-aos="fade-up" data-aos-delay="200" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                        <div class="solution-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="36" height="36" fill="white"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a;">Phát Triển Phần Mềm</h3>
+                        <p style="color: #444; line-height: 1.6; margin-bottom: 20px;">Phát triển ứng dụng tuỳ chỉnh, phần mềm di động, web và kiểm thử chất lượng. Tập trung vào giải pháp tạo giá trị thực tế.</p>
+                        <a href="#contact" class="btn-text" style="color: #1331d2; font-weight: 500; display: inline-flex; align-items: center; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF'; this.querySelector('i').style.transform='translateX(5px)';" onmouseout="this.style.color='#1331d2'; this.querySelector('i').style.transform='translateX(0)';">Tìm Hiểu Thêm <i class="fas fa-arrow-right" style="margin-left: 8px; transition: all 0.3s ease;"></i></a>
+                    </div>
+                    <div class="solution-card" data-aos="fade-up" data-aos-delay="300" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                        <div class="solution-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="36" height="36" fill="white"><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a;">Gia Công Phần Mềm</h3>
+                        <p style="color: #444; line-height: 1.6; margin-bottom: 20px;">Gia công từng module, toàn bộ dự án và tích hợp tính năng cho hệ thống hiện tại. Đảm bảo chất lượng cao và đúng tiến độ.</p>
+                        <a href="#contact" class="btn-text" style="color: #1331d2; font-weight: 500; display: inline-flex; align-items: center; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF'; this.querySelector('i').style.transform='translateX(5px)';" onmouseout="this.style.color='#1331d2'; this.querySelector('i').style.transform='translateX(0)';">Tìm hiểu thêm <i class="fas fa-arrow-right" style="margin-left: 8px; transition: all 0.3s ease;"></i></a>
+                    </div>
+                    <div class="solution-card" data-aos="fade-up" data-aos-delay="400" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                        <div class="solution-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="36" height="36" fill="white"><path d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"/></svg>
+                        </div>
+                        <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a;">Triển Khai & Vận Hành</h3>
+                        <p style="color: #444; line-height: 1.6; margin-bottom: 20px;">Triển khai hệ thống, di chuyển dữ liệu an toàn và tích hợp với hệ thống hiện tại. Hỗ trợ vận hành và bảo trì lâu dài.</p>
+                        <a href="#contact" class="btn-text" style="color: #1331d2; font-weight: 500; display: inline-flex; align-items: center; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='#00B8FF'; this.querySelector('i').style.transform='translateX(5px)';" onmouseout="this.style.color='#1331d2'; this.querySelector('i').style.transform='translateX(0)';">Tìm hiểu thêm <i class="fas fa-arrow-right" style="margin-left: 8px; transition: all 0.3s ease;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="products-bg">
+            <div class="products-pattern"></div>
+            <div class="products-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Sản phẩm</span>
+                <h2><span class="gradient-text">LeanTech Ecosystem</span> - Hệ Sinh Thái Chuyển Đổi Số Toàn Diện</h2>
+                <p>Nền tảng <strong>tối ưu hóa toàn diện</strong> giúp <strong>tăng năng suất 37%</strong>, <strong>giảm 45% thời gian xử lý</strong>, <strong>loại bỏ lãng phí</strong> và <strong>tạo dòng chảy giá trị</strong> xuyên suốt doanh nghiệp</p>
+            </div>
+            
+            <div class="products-tabs">
+                <div class="tabs-nav" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px;">
+                    <button class="tab-btn active" data-tab="lean-hrm" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(19, 49, 210, 0.15); border-radius: 24px; padding: 10px 20px; font-weight: 500; color: #1331d2; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.05)';" onmouseout="if(!this.classList.contains('active')) this.style.background='rgba(255, 255, 255, 0.05)';">Lean HRM</button>
+                    <button class="tab-btn" data-tab="lean-erp" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(19, 49, 210, 0.15); border-radius: 24px; padding: 10px 20px; font-weight: 500; color: #1a1a1a; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.05)'; this.style.color='#1331d2';" onmouseout="if(!this.classList.contains('active')) {this.style.background='rgba(255, 255, 255, 0.05)'; this.style.color='#1a1a1a';}">Lean ERP</button>
+                    <button class="tab-btn" data-tab="lean-work" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(19, 49, 210, 0.15); border-radius: 24px; padding: 10px 20px; font-weight: 500; color: #1a1a1a; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.05)'; this.style.color='#1331d2';" onmouseout="if(!this.classList.contains('active')) {this.style.background='rgba(255, 255, 255, 0.05)'; this.style.color='#1a1a1a';}">Lean WORK</button>
+                    <button class="tab-btn" data-tab="lean-search" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(19, 49, 210, 0.15); border-radius: 24px; padding: 10px 20px; font-weight: 500; color: #1a1a1a; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.05)'; this.style.color='#1331d2';" onmouseout="if(!this.classList.contains('active')) {this.style.background='rgba(255, 255, 255, 0.05)'; this.style.color='#1a1a1a';}">Lean SEARCH</button>
+                </div>
+                
+                <div class="tabs-content">
+                    <!-- Lean HRM Tab -->
+                    <div class="tab-pane active" id="lean-hrm">
+                        <div class="product-content">
+                            <div class="product-info">
+                                <div class="product-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="36" height="36" fill="white"><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352h117.4C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
+                                </div>
+                                <h3 style="font-weight: 700;">Lean HRM - Quản Lý Nhân Sự</h3>
+                                <p>Giải pháp được thiết kế dựa trên thực tế doanh nghiệp Việt Nam. <strong>Tiết kiệm 62% thời gian</strong> xử lý hồ sơ, <strong>tăng 40% hiệu suất quản lý</strong>, loại bỏ các bước thừa và tự động hóa công việc hành chính lặp lại.</p>
+                                
+                                <div class="product-features">
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Số hóa hồ sơ</strong> - Giảm 62% thời gian tìm kiếm & xử lý hồ sơ</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Quản lý đơn phép</strong> - Hỗ trợ nhiều loại phép, ứng lương, nghỉ ốm</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Chấm công thông minh</strong> - Đồng bộ giờ làm việc, tăng ca, trễ phép</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Quản lý tuyển dụng</strong> - Tự động hóa quy trình tuyển dụng</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Lương thưởng linh hoạt</strong> - Tính lương theo nhiều mô hình</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Đánh giá KPI</strong> - Hệ thống đánh giá hiệu suất nhân viên đa chiều</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-actions">
+                                    <a href="#contact" class="btn btn-primary" style="background: #1331d2; color: white; border: none; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.3); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(19, 49, 210, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(19, 49, 210, 0.3)';">Báo giá dịch vụ <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-image">
+                                <img src="img/product/product-hrm.png" alt="Giao diện hệ thống quản lý nhân sự Lean HRM - phần mềm quản lý nhân sự toàn diện" class="floating">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Lean ERP Tab -->
+                    <div class="tab-pane" id="lean-erp">
+                        <div class="product-content">
+                            <div class="product-info">
+                                <div class="product-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="36" height="36" fill="white"><path d="M32 32c17.7 0 32 14.3 32 32V400c0 8.8 7.2 16 16 16H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H80c-44.2 0-80-35.8-80-80V64C0 46.3 14.3 32 32 32zM160 224c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32s-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm128-64V320c0 17.7-14.3 32-32 32s-32-14.3-32-32V160c0-17.7 14.3-32 32-32s32 14.3 32 32zm64 32c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V224c0-17.7 14.3-32 32-32zm128-64c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32V160c0-17.7 14.3-32 32-32z"/></svg>
+                                </div>
+                                <h3 style="font-weight: 700;">Lean ERP - Quản Trị Doanh Nghiệp</h3>
+                                <p>Nền tảng ERP toàn diện cho doanh nghiệp Việt Nam. <strong>Tăng trưởng 37% doanh thu</strong>, <strong>giảm 45% thời gian</strong> xử lý báo cáo, <strong>tối ưu 25% chi phí</strong>, tích hợp quản lý tài chính, cung ứng và sản xuất.</p>
+                                
+                                <div class="product-features">
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Tài chính toàn diện</strong> - Tự động đối chiếu và cân đối khoản</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Quản lý báo giá</strong> - Tạo báo giá nhanh chóng, chuyển thành đơn hàng</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Xử lý đơn hàng</strong> - Theo dõi trạng thái, tự động xuất kho, lập hóa đơn</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Tối ưu kho hàng</strong> - Giảm 25% chi phí tồn kho, dự báo nhu cầu</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Kiểm soát sản xuất</strong> - Đồng bộ dữ liệu sản xuất theo thời gian thực</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Phân tích thông minh</strong> - Dự báo doanh thu và xu hướng thị trường</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-actions">
+                                    <a href="#contact" class="btn btn-primary" style="background: #1331d2; color: white; border: none; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.3); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(19, 49, 210, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(19, 49, 210, 0.3)';">Tư Vấn Giải Pháp <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-image">
+                                <img src="img/product/product-erp.png" alt="Giao diện hệ thống ERP LeanTechCo - Phần mềm quản trị doanh nghiệp tổng thể" class="floating">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Lean WORK Tab -->
+                    <div class="tab-pane" id="lean-work">
+                        <div class="product-content">
+                            <div class="product-info">
+                                <div class="product-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="36" height="36" fill="white"><path d="M152.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 113C-2.3 103.6-2.3 88.4 7 79s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM224 96c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zM160 416c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-17.7 0-32-14.3-32-32zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                                </div>
+                                <h3 style="font-weight: 700;">Lean WORK - Quản Lý Dự Án</h3>
+                                <p>Hệ thống quản lý công việc và dự án thông minh. <strong>Tăng hiệu suất 35%</strong>, <strong>giảm 40% thời gian họp</strong>, <strong>tăng 50% tốc độ hoàn thành</strong>, kiểm soát tiến độ và tối ưu hóa nguồn lực doanh nghiệp.</p>
+                                
+                                <div class="product-features">
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Quản lý công việc</strong> - 3 chế độ hiển thị Kanban/Gantt/Danh sách</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Tùy biến quy trình</strong> - Workflow linh hoạt theo đặc thù doanh nghiệp</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Phê duyệt nhiều cấp</strong> - Hệ thống thông báo thông minh tự động</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Quản lý tài nguyên</strong> - Phân bổ nguồn lực tối ưu, tránh chồng chéo</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Quản lý dự án</strong> - Tự động tính phí, theo dõi hiệu quả ROI</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Báo cáo tiến độ</strong> - Theo dõi chi tiết hiệu suất theo vai trò</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-actions">
+                                    <a href="#contact" class="btn btn-primary" style="background: #1331d2; color: white; border: none; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.3); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(19, 49, 210, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(19, 49, 210, 0.3)';">Báo giá dịch vụ <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-image">
+                                <img src="img/product/product-work.png" alt="Giao diện Lean WORK - Phần mềm quản lý công việc và dự án thông minh" class="floating">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Lean SEARCH Tab -->
+                    <div class="tab-pane" id="lean-search">
+                        <div class="product-content">
+                            <div class="product-info">
+                                <div class="product-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="36" height="36" fill="white"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm8-152v48h48c8.8 0 16 7.2 16 16s-7.2 16-16 16H216c-8.8 0-16-7.2-16-16V200c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                </div>
+                                <h3 style="font-weight: 700;">Lean SEARCH - Tìm Kiếm Doanh Nghiệp</h3>
+                                <p>Giải pháp tìm kiếm thông minh với công nghệ AI. <strong>Tăng tốc 70% tìm kiếm</strong>, <strong>hỗ trợ đa dạng định dạng</strong>, <strong>tiết kiệm 35% thời gian</strong> truy xuất tài liệu với độ chính xác cao.</p>
+                                
+                                <div class="product-features">
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Tốc độ vượt trội</strong> - Nhanh hơn 70%, hỗ trợ tiếng Việt đầy đủ</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Hỗ trợ đa dạng</strong> - Văn bản, PDF, Excel, hình ảnh và video</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Tìm kiếm ngữ nghĩa</strong> - Hiểu ngữ cảnh, nội dung liên quan</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Tích hợp toàn diện</strong> - Kết nối CRM, ERP, HRM và tài liệu nội bộ</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Công nghệ AI</strong> - Phân tích ngữ nghĩa và đề xuất thông minh</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-check"></i>
+                                        <span><strong>Bảo mật đa tầng</strong> - Phân quyền chi tiết theo nhu cầu truy cập</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-actions">
+                                    <a href="#contact" class="btn btn-primary" style="background: #1331d2; color: white; border: none; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.3); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(19, 49, 210, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(19, 49, 210, 0.3)';">Tư vấn giải pháp <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-image">
+                                <img src="img/product/product-search-banner.png" alt="Giao diện Lean SEARCH - Công cụ tìm kiếm và truy xuất dữ liệu doanh nghiệp" class="floating">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <div class="why-choose-us-bg">
+            <div class="why-choose-us-pattern"></div>
+            <div class="why-choose-us-gradient"></div>
+            <div class="decoration-circle decoration-circle-1"></div>
+            <div class="decoration-circle decoration-circle-2"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Về chúng tôi</span>
+                <h2>Tại Sao Chọn <span class="gradient-text">LeanTechCo</span> Làm <span class="accent-text">Đối Tác Công Nghệ</span>?</h2>
+                <p>Triết lý <strong>LEAN</strong> trong phát triển phần mềm – <strong>Loại bỏ lãng phí, tối ưu hóa giá trị</strong> và <strong>tăng tốc độ phát triển</strong> giúp doanh nghiệp vận hành hiệu quả hơn</p>
+            </div>
+            <div class="features-grid" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px; width: 100%; max-width: 1200px; margin-left: auto; margin-right: auto;">
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                    <div class="feature-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                        <i class="fas fa-rocket" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a; text-align: center; width: 100%;">Phát Triển Tinh Gọn</h3>
+                    <p style="color: #444; line-height: 1.7; margin-bottom: 15px; font-size: 15px; text-align: center; width: 100%;"><strong>Giảm 53% tính năng không cần thiết</strong> qua phân tích giá trị sử dụng thực tế. Áp dụng <strong>quy trình tinh gọn</strong> từ giai đoạn thiết kế đến triển khai, <strong>loại bỏ các bước thừa</strong> trong phát triển phần mềm.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                    <div class="feature-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                        <i class="fas fa-lightbulb" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a; text-align: center; width: 100%;">Phát Triển Giá Trị</h3>
+                    <p style="color: #444; line-height: 1.7; margin-bottom: 15px; font-size: 15px;"><strong>Tối ưu dòng chảy công việc</strong> với các phiên bản lặp lại ngắn (2-4 tuần). Xây dựng <strong>chu trình tạo giá trị linh hoạt</strong> theo nhu cầu thực tế của người dùng, tập trung vào <strong>kết quả đo lường được</strong>.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                    <div class="feature-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                        <i class="fas fa-bolt" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a; text-align: center; width: 100%;">Phát Triển Theo Nhu Cầu</h3>
+                    <p style="color: #444; line-height: 1.7; margin-bottom: 15px; font-size: 15px;">Phát triển phần mềm dựa trên <strong>nhu cầu thực tế</strong> thay vì dự đoán. Sử dụng <strong>hệ thống công việc trực quan</strong> để cân bằng tải và <strong>giảm 40% thời gian hoàn thành</strong> các tính năng mới.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="400" style="flex: 1; flex-basis: calc(25% - 30px); min-width: 260px; max-width: 100%; background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 30px 25px; text-align: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 35px rgba(19, 49, 210, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.05)';">
+                    <div class="feature-icon" style="width: 80px; height: 80px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.2);">
+                        <i class="fas fa-users" style="font-size: 32px; color: white;"></i>
+                    </div>
+                    <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 15px; color: #1a1a1a; text-align: center; width: 100%;">Phát Triển Liên Tục</h3>
+                    <p style="color: #444; line-height: 1.7; margin-bottom: 15px; font-size: 15px;"><strong>Phân tích liên tục</strong> và <strong>hồi đáp mở</strong> để nâng cao chất lượng code. Thực hiện <strong>cải tiến dựa trên dữ liệu thực tế</strong> và <strong>quy trình phát triển linh hoạt</strong> nhằm tạo ra giải pháp đáp ứng chính xác nhu cầu doanh nghiệp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="clients-bg">
+            <div class="clients-pattern"></div>
+            <div class="clients-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Đối tác</span>
+                <h2>Đối Tác & Khách Hàng <span class="gradient-text">Tiêu Biểu</span></h2>
+                <p>Hợp tác bền vững, tạo ra <strong>giá trị thực tế</strong> và <strong>đo lường được</strong></p>
+            </div>
+            <div class="clients-wrapper">
+                <div class="clients-grid" data-aos="fade-up">
+                    <div class="client-logo" data-aos="fade-up" data-aos-delay="100">
+                        <img src="img/client1.png" alt="CICC">
+                    </div>
+                    <div class="client-logo" data-aos="fade-up" data-aos-delay="200">
+                        <img src="img/client8.png" alt="CTI VN">
+                    </div>
+                    <div class="client-logo" data-aos="fade-up" data-aos-delay="300">
+                        <img src="img/client3.jpeg" alt="https://artstuff.vn/">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials-bg">
+            <div class="testimonials-gradient"></div>
+            <div class="testimonials-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Khách hàng</span>
+                <h2>Câu Chuyện <span class="gradient-text">Thành Công</span></h2>
+                <p>Kết quả thực tế từ đối tác tin cậy của LeanTechCo</p>
+            </div>
+            <div class="testimonial-cards" data-aos="fade-up">
+                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                        <p>"Lean HRM đã giải quyết triệt để các vấn đề tồn đọng trong quản trị nhân sự của chúng tôi. <strong>Báo cáo chính xác hơn 87%</strong>, <strong>giảm 62% thời gian xử lý hồ sơ</strong> và <strong>tiết kiệm 48% chi phí quản trị</strong>. Đầu tư thực sự xứng đáng với doanh nghiệp chúng tôi."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/client1.png" alt="Testimonial 1">
+                        <div class="author-info">
+                            <h4>Nguyễn Thanh Diệu</h4>
+                            <p>Giám đốc nhân sự, Công ty CiCC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                        <p>"Giải pháp ERP của LeanTechCo mang lại <strong>kết quả đo lường được</strong>: <strong>dữ liệu liên kết xuyên suốt</strong>, <strong>giảm 53% sai sót vận hành</strong>, <strong>tiết kiệm 45% thời gian báo cáo</strong>. Lãnh đạo chúng tôi ra quyết định nhanh hơn và chính xác hơn dựa trên dữ liệu thời gian thực."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/client7.png" alt="Testimonial 2">
+                        <div class="author-info">
+                            <h4>Nguyễn Thanh Phong</h4>
+                            <p>Chief Strategy Officer, CTIVN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-bg">
+            <div class="cta-grid"></div>
+            <div class="cta-particles"></div>
+            <div class="cta-gradient"></div>
+            <div class="cta-glow"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 style="font-size: 40px; font-weight: 700; margin-bottom: 20px; color: white; text-align: center;">Sẵn Sàng <span class="gradient-text" style="background: linear-gradient(135deg, #00B8FF, #FFFFFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Tối Ưu Hóa</span> Doanh Nghiệp Của Bạn?</h2>
+                <p style="font-size: 18px; margin-bottom: 30px; color: rgba(255, 255, 255, 0.9); max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">Hãy để đội ngũ chuyên gia của chúng tôi cùng bạn tạo ra <span style="color: #00B8FF; font-weight: 600;">giá trị thực tế</span> cho doanh nghiệp trong hành trình tối ưu hóa.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-light" style="background: white; color: #1331d2; border: 1px solid white; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15); transition: all 0.3s ease; border-radius: 24px; font-weight: 500;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(255, 255, 255, 0.25)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(255, 255, 255, 0.15)';">Nhận tư vấn miễn phí <i class="fas fa-chevron-right"></i></a>
+                    <a href="#solutions" class="btn btn-outline-light" style="background-color: rgba(255, 255, 255, 0.1); color: white; border: 1px solid rgba(255, 255, 255, 0.3); transition: all 0.3s ease; border-radius: 24px;" onmouseover="this.style.transform='translateY(-3px)'; this.style.background='rgba(255, 255, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.background='rgba(255, 255, 255, 0.1)';">Xem Giải Pháp <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-bg">
+            <div class="contact-pattern"></div>
+            <div class="contact-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" style="background: linear-gradient(135deg, rgba(19, 49, 210, 0.15), rgba(0, 184, 255, 0.15)); color: #1331d2; font-weight: 600;">Liên hệ</span>
+                <h2 style="margin-top: 15px; margin-bottom: 20px; font-size: 38px; font-weight: 700;">Hợp Tác Cùng <span class="gradient-text" style="background: linear-gradient(135deg, #1331d2, #00B8FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">LeanTechCo</span></h2>
+                <p style="max-width: 700px; margin-left: auto; margin-right: auto; margin-bottom: 50px; color: #444; line-height: 1.7; font-size: 18px;">Bắt đầu hành trình tối ưu hóa và tăng trưởng cùng chúng tôi</p>
+            </div>
+            <div class="contact-content" data-aos="fade-up" style="display: flex; flex-wrap: wrap; gap: 30px; align-items: stretch;">
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="100" style="background: white; border-radius: 16px; padding: 35px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); position: relative; overflow: hidden; flex: 1; min-width: 320px;">
+                    <div style="position: absolute; top: 0; left: 0; width: 150px; height: 150px; background: linear-gradient(135deg, rgba(19, 49, 210, 0.05), rgba(0, 184, 255, 0.05)); border-radius: 0 0 100% 0;"></div>
+                    <div style="position: absolute; bottom: -50px; right: -50px; width: 150px; height: 150px; background: linear-gradient(135deg, rgba(19, 49, 210, 0.03), rgba(0, 184, 255, 0.03)); border-radius: 50%;"></div>
+                    
+                    <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 30px; color: #1a1a1a; position: relative; padding-bottom: 12px; display: inline-block;">
+                        <span style="position: relative; z-index: 1;">Đăng Ký Tư Vấn Miễn Phí</span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #1331d2, #00B8FF); border-radius: 3px;"></span>
+                    </h3>
+                    
+                    <form id="consultationForm" style="position: relative; z-index: 5;">
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="name" style="display: block; margin-bottom: 8px; font-weight: 600; color: #333; font-size: 15px;">Họ Và Tên</label>
+                            <input type="text" id="name" name="name" required style="width: 100%; padding: 14px 15px; border: 1px solid #eaeaea; border-radius: 12px; transition: all 0.3s ease; background: #f9fafb;" onmouseover="this.style.borderColor='#00B8FF';" onmouseout="this.style.borderColor='#eaeaea';" onfocus="this.style.borderColor='#1331d2'; this.style.boxShadow='0 0 0 3px rgba(19, 49, 210, 0.1)'; this.style.background='white';" onblur="this.style.borderColor='#eaeaea'; this.style.boxShadow='none'; this.style.background='#f9fafb';">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="email" style="display: block; margin-bottom: 8px; font-weight: 600; color: #333; font-size: 15px;">Email</label>
+                            <input type="email" id="email" name="email" required style="width: 100%; padding: 14px 15px; border: 1px solid #eaeaea; border-radius: 12px; transition: all 0.3s ease; background: #f9fafb;" onmouseover="this.style.borderColor='#00B8FF';" onmouseout="this.style.borderColor='#eaeaea';" onfocus="this.style.borderColor='#1331d2'; this.style.boxShadow='0 0 0 3px rgba(19, 49, 210, 0.1)'; this.style.background='white';" onblur="this.style.borderColor='#eaeaea'; this.style.boxShadow='none'; this.style.background='#f9fafb';">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="phone" style="display: block; margin-bottom: 8px; font-weight: 600; color: #333; font-size: 15px;">Số Điện Thoại</label>
+                            <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 14px 15px; border: 1px solid #eaeaea; border-radius: 12px; transition: all 0.3s ease; background: #f9fafb;" onmouseover="this.style.borderColor='#00B8FF';" onmouseout="this.style.borderColor='#eaeaea';" onfocus="this.style.borderColor='#1331d2'; this.style.boxShadow='0 0 0 3px rgba(19, 49, 210, 0.1)'; this.style.background='white';" onblur="this.style.borderColor='#eaeaea'; this.style.boxShadow='none'; this.style.background='#f9fafb';">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="company" style="display: block; margin-bottom: 8px; font-weight: 600; color: #333; font-size: 15px;">Tên Doanh Nghiệp</label>
+                            <input type="text" id="company" name="company" required style="width: 100%; padding: 14px 15px; border: 1px solid #eaeaea; border-radius: 12px; transition: all 0.3s ease; background: #f9fafb;" onmouseover="this.style.borderColor='#00B8FF';" onmouseout="this.style.borderColor='#eaeaea';" onfocus="this.style.borderColor='#1331d2'; this.style.boxShadow='0 0 0 3px rgba(19, 49, 210, 0.1)'; this.style.background='white';" onblur="this.style.borderColor='#eaeaea'; this.style.boxShadow='none'; this.style.background='#f9fafb';">
+                        </div>
+                        <div class="form-group" style="margin-bottom: 25px;">
+                            <label for="message" style="display: block; margin-bottom: 8px; font-weight: 600; color: #333; font-size: 15px;">Nhu Cầu Của Bạn</label>
+                            <textarea id="message" name="message" rows="5" style="width: 100%; padding: 14px 15px; border: 1px solid #eaeaea; border-radius: 12px; transition: all 0.3s ease; background: #f9fafb; resize: none;" onmouseover="this.style.borderColor='#00B8FF';" onmouseout="this.style.borderColor='#eaeaea';" onfocus="this.style.borderColor='#1331d2'; this.style.boxShadow='0 0 0 3px rgba(19, 49, 210, 0.1)'; this.style.background='white';" onblur="this.style.borderColor='#eaeaea'; this.style.boxShadow='none'; this.style.background='#f9fafb';"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" style="background: linear-gradient(135deg, #1331d2, #00B8FF); color: white; border: none; box-shadow: 0 10px 20px rgba(19, 49, 210, 0.3); transition: all 0.3s ease; border-radius: 12px; font-weight: 600; padding: 16px 20px; display: inline-block; width: 100%; text-align: center; text-decoration: none; cursor: pointer; font-size: 16px;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 25px rgba(19, 49, 210, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(19, 49, 210, 0.3)';">Gửi yêu cầu tư vấn <i class="fas fa-paper-plane" style="margin-left: 8px;"></i></button>
+                    </form>
+                </div>
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="200" style="background: white; border-radius: 16px; padding: 35px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); position: relative; overflow: hidden; flex: 1; min-width: 320px;">
+                    <div style="position: absolute; top: 0; right: 0; width: 150px; height: 150px; background: linear-gradient(135deg, rgba(19, 49, 210, 0.05), rgba(0, 184, 255, 0.05)); border-radius: 0 0 0 100%;"></div>
+                    <div style="position: absolute; bottom: -50px; left: -50px; width: 150px; height: 150px; background: linear-gradient(135deg, rgba(19, 49, 210, 0.03), rgba(0, 184, 255, 0.03)); border-radius: 50%;"></div>
+                    
+                    <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 30px; color: #1a1a1a; position: relative; padding-bottom: 12px; display: inline-block;">
+                        <span style="position: relative; z-index: 1;">Thông Tin Liên Hệ</span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #1331d2, #00B8FF); border-radius: 3px;"></span>
+                    </h3>
+                    
+                    <div class="info-items" style="position: relative; z-index: 5;">
+                        <div class="info-item" style="display: flex; margin-bottom: 25px; align-items: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(5px)';" onmouseout="this.style.transform='translateX(0)';">
+                            <div style="min-width: 50px; height: 50px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.2);">
+                                <i class="fas fa-map-marker-alt" style="color: white; font-size: 22px;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 600; color: #1a1a1a;">Văn Phòng Chính</h4>
+                                <p style="margin: 0; color: #444; line-height: 1.6;">Số 5 Đường số 3, Khu phố 2, Phường An Khánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item" style="display: flex; margin-bottom: 25px; align-items: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(5px)';" onmouseout="this.style.transform='translateX(0)';">
+                            <div style="min-width: 50px; height: 50px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.2);">
+                                <i class="fas fa-phone" style="color: white; font-size: 22px;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 600; color: #1a1a1a;">Điện Thoại Liên Hệ</h4>
+                                <p style="margin: 0; color: #444; line-height: 1.6;"><a href="tel:+84906246489" style="color: #444; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='#1331d2';" onmouseout="this.style.color='#444';">(+84) 906 246 489</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item" style="display: flex; margin-bottom: 30px; align-items: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateX(5px)';" onmouseout="this.style.transform='translateX(0)';">
+                            <div style="min-width: 50px; height: 50px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.2);">
+                                <i class="fas fa-envelope" style="color: white; font-size: 22px;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 600; color: #1a1a1a;">Email Doanh Nghiệp</h4>
+                                <p style="margin: 0; color: #444; line-height: 1.6;"><a href="mailto:info@LeanTechCocom" style="color: #444; text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.color='#1331d2';" onmouseout="this.style.color='#444';">info@LeanTechCocom</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(0, 0, 0, 0.05);">
+                        <h4 style="margin: 0 0 15px 0; font-size: 16px; font-weight: 600; color: #1a1a1a;">Kết Nối Với Chúng Tôi</h4>
+                        <div class="social-links" style="display: flex; gap: 15px;">
+                            <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: white; color: #1331d2; border-radius: 10px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.1);" onmouseover="this.style.transform='translateY(-5px)'; this.style.background='linear-gradient(135deg, #1331d2, #00B8FF)'; this.style.color='white';" onmouseout="this.style.transform='translateY(0)'; this.style.background='white'; this.style.color='#1331d2';"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: white; color: #1331d2; border-radius: 10px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.1);" onmouseover="this.style.transform='translateY(-5px)'; this.style.background='linear-gradient(135deg, #1331d2, #00B8FF)'; this.style.color='white';" onmouseout="this.style.transform='translateY(0)'; this.style.background='white'; this.style.color='#1331d2';"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: white; color: #1331d2; border-radius: 10px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.1);" onmouseover="this.style.transform='translateY(-5px)'; this.style.background='linear-gradient(135deg, #1331d2, #00B8FF)'; this.style.color='white';" onmouseout="this.style.transform='translateY(0)'; this.style.background='white'; this.style.color='#1331d2';"><i class="fab fa-youtube"></i></a>
+                            <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: white; color: #1331d2; border-radius: 10px; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.1);" onmouseover="this.style.transform='translateY(-5px)'; this.style.background='linear-gradient(135deg, #1331d2, #00B8FF)'; this.style.color='white';" onmouseout="this.style.transform='translateY(0)'; this.style.background='white'; this.style.color='#1331d2';"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="faq-bg">
+            <div class="faq-gradient"></div>
+            <div class="faq-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FAQ</span>
+                <h2>Thông Tin <span class="gradient-text">Hỗ Trợ</span></h2>
+                <p>Các câu hỏi thường gặp về giải pháp của LeanTechCo</p>
+            </div>
+            <div class="faq-list" data-aos="fade-up" style="max-width: 900px; margin: 0 auto;">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100" style="background: white; border-radius: 16px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); transition: all 0.3s ease;" onmouseover="this.style.boxShadow='0 10px 25px rgba(19, 49, 210, 0.1)';" onmouseout="this.style.boxShadow='0 5px 15px rgba(0, 0, 0, 0.05)';"> 
+                    <div class="faq-question" style="padding: 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: white; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.03)';" onmouseout="this.style.background='white';">
+                        <h4 style="margin: 0; font-size: 18px; font-weight: 600; color: #1a1a1a;">LeanTechCo Cung Cấp Những Giải Pháp Nào?</h4>
+                        <i class="fas fa-chevron-down" style="color: #1331d2; transition: all 0.3s ease;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 20px 20px; display: none;">
+                        <p style="margin: 0; color: #444; line-height: 1.7;">Chúng tôi cung cấp các giải pháp tư vấn quản trị, thiết kế và phát triển phần mềm, gia công và triển khai hệ thống. Các sản phẩm chủ lực bao gồm hệ thống quản lý nhân sự, quản trị doanh nghiệp, quản lý công việc và tìm kiếm dữ liệu doanh nghiệp.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200" style="background: white; border-radius: 16px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); transition: all 0.3s ease;" onmouseover="this.style.boxShadow='0 10px 25px rgba(19, 49, 210, 0.1)';" onmouseout="this.style.boxShadow='0 5px 15px rgba(0, 0, 0, 0.05)';"> 
+                    <div class="faq-question" style="padding: 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: white; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.03)';" onmouseout="this.style.background='white';">
+                        <h4 style="margin: 0; font-size: 18px; font-weight: 600; color: #1a1a1a;">Chi Phí Triển Khai Giải Pháp Như Thế Nào?</h4>
+                        <i class="fas fa-chevron-down" style="color: #1331d2; transition: all 0.3s ease;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 20px 20px; display: none;">
+                        <p style="margin: 0; color: #444; line-height: 1.7;">Chi phí triển khai phụ thuộc vào quy mô doanh nghiệp và giải pháp bạn lựa chọn. Chúng tôi cung cấp nhiều gói dịch vụ phù hợp với ngân sách và nhu cầu của từng doanh nghiệp. Vui lòng liên hệ với chúng tôi để được tư vấn chi tiết.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300" style="background: white; border-radius: 16px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); transition: all 0.3s ease;" onmouseover="this.style.boxShadow='0 10px 25px rgba(19, 49, 210, 0.1)';" onmouseout="this.style.boxShadow='0 5px 15px rgba(0, 0, 0, 0.05)';"> 
+                    <div class="faq-question" style="padding: 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: white; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.03)';" onmouseout="this.style.background='white';">
+                        <h4 style="margin: 0; font-size: 18px; font-weight: 600; color: #1a1a1a;">Thời Gian Triển Khai Các Giải Pháp Mất Bao Lâu?</h4>
+                        <i class="fas fa-chevron-down" style="color: #1331d2; transition: all 0.3s ease;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 20px 20px; display: none;">
+                        <p style="margin: 0; color: #444; line-height: 1.7;">Thời gian triển khai phụ thuộc vào mức độ phức tạp của giải pháp và sự sẵn sàng của doanh nghiệp. Thông thường, thời gian triển khai từ 2 tuần đến 3 tháng tùy thuộc vào giải pháp bạn chọn.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400" style="background: white; border-radius: 16px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); transition: all 0.3s ease;" onmouseover="this.style.boxShadow='0 10px 25px rgba(19, 49, 210, 0.1)';" onmouseout="this.style.boxShadow='0 5px 15px rgba(0, 0, 0, 0.05)';"> 
+                    <div class="faq-question" style="padding: 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: white; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(19, 49, 210, 0.03)';" onmouseout="this.style.background='white';">
+                        <h4 style="margin: 0; font-size: 18px; font-weight: 600; color: #1a1a1a;">Có Được Hỗ Trợ Kỹ Thuật Sau Khi Triển Khai Không?</h4>
+                        <i class="fas fa-chevron-down" style="color: #1331d2; transition: all 0.3s ease;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 20px 20px; display: none;">
+                        <p style="margin: 0; color: #444; line-height: 1.7;">Có, chúng tôi cung cấp dịch vụ hỗ trợ kỹ thuật 24/7 sau khi triển khai. Chúng tôi cam kết đồng hành cùng doanh nghiệp của bạn trong suốt quá trình sử dụng giải pháp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: #1331d2; color: white; padding: 80px 0 40px;">
+        <div class="footer-bg">
+            <div class="footer-pattern"></div>
+            <div class="footer-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="footer-content" style="display: flex; flex-wrap: wrap; gap: 40px; margin-bottom: 50px;">
+                <div class="footer-logo" style="flex: 1; min-width: 250px;">
+                    <div class="logo-title footer-logo-title" style="margin-bottom: 20px; font-size: 28px;">
+                        <span class="logo-lean" style="color: white; font-weight: 600;">lean</span>
+                        <span class="logo-tech" style="color: white; font-weight: 600;">tech</span>
+                        <span class="logo-co" style="color: #00B8FF; font-weight: 600;">co.</span>
+                    </div>
+                    <p style="color: rgba(255, 255, 255, 0.8); line-height: 1.6; font-size: 15px; margin-bottom: 20px;">Đối tác chuyển đổi số uy tín cho doanh nghiệp Việt Nam</p>
+                    <div class="social-links" style="display: flex; gap: 15px; margin-top: 20px;">
+                        <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255, 255, 255, 0.1); color: white; border-radius: 50%; transition: all 0.3s ease;" onmouseover="this.style.background='#00B8FF'; this.style.transform='translateY(-5px)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(0)';"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255, 255, 255, 0.1); color: white; border-radius: 50%; transition: all 0.3s ease;" onmouseover="this.style.background='#00B8FF'; this.style.transform='translateY(-5px)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(0)';"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255, 255, 255, 0.1); color: white; border-radius: 50%; transition: all 0.3s ease;" onmouseover="this.style.background='#00B8FF'; this.style.transform='translateY(-5px)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(0)';"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: rgba(255, 255, 255, 0.1); color: white; border-radius: 50%; transition: all 0.3s ease;" onmouseover="this.style.background='#00B8FF'; this.style.transform='translateY(-5px)';" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'; this.style.transform='translateY(0)';"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links" style="flex: 1; min-width: 160px;">
+                    <h4 style="font-size: 18px; font-weight: 600; margin-bottom: 25px; position: relative; padding-bottom: 12px;">
+                        <span style="position: relative; z-index: 1;">Liên Kết Nhanh</span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 3px; background: linear-gradient(90deg, #00B8FF, rgba(0, 184, 255, 0.2)); border-radius: 3px;"></span>
+                    </h4>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 12px;"><a href="#home" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Trang Chủ</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#solutions" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Giải Pháp</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#products" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Sản Phẩm</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#clients" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Đối Tác</a></li>
+                        <li><a href="#contact" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-products" style="flex: 1; min-width: 160px;">
+                    <h4 style="font-size: 18px; font-weight: 600; margin-bottom: 25px; position: relative; padding-bottom: 12px;">
+                        <span style="position: relative; z-index: 1;">Sản Phẩm</span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 3px; background: linear-gradient(90deg, #00B8FF, rgba(0, 184, 255, 0.2)); border-radius: 3px;"></span>
+                    </h4>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 12px;"><a href="#lean-hrm" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Lean HRM</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#lean-erp" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Lean ERP</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#lean-work" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Lean WORK</a></li>
+                        <li><a href="#lean-search" style="color: rgba(255, 255, 255, 0.8); text-decoration: none; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#00B8FF'; this.style.transform='translateX(5px)';" onmouseout="this.style.color='rgba(255, 255, 255, 0.8)'; this.style.transform='translateX(0)';">Lean SEARCH</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact" style="flex: 1.5; min-width: 250px;">
+                    <h4 style="font-size: 18px; font-weight: 600; margin-bottom: 25px; position: relative; padding-bottom: 12px;">
+                        <span style="position: relative; z-index: 1;">Liên Hệ</span>
+                        <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 3px; background: linear-gradient(90deg, #00B8FF, rgba(0, 184, 255, 0.2)); border-radius: 3px;"></span>
+                    </h4>
+                    <p style="color: rgba(255, 255, 255, 0.8); margin-bottom: 15px; display: flex; align-items: flex-start; line-height: 1.6;">
+                        <i class="fas fa-map-marker-alt" style="color: #00B8FF; margin-right: 15px; font-size: 18px; margin-top: 3px;"></i>
+                        <span>Số 5 Đường số 3, Khu phố 2, Phường An Khánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam</span>
+                    </p>
+                    <p style="color: rgba(255, 255, 255, 0.8); margin-bottom: 15px; display: flex; align-items: center;">
+                        <i class="fas fa-phone" style="color: #00B8FF; margin-right: 15px; font-size: 18px;"></i>
+                        <span>(+84) 906 246 489</span>
+                    </p>
+                    <p style="color: rgba(255, 255, 255, 0.8); margin-bottom: 15px; display: flex; align-items: center;">
+                        <i class="fas fa-envelope" style="color: #00B8FF; margin-right: 15px; font-size: 18px;"></i>
+                        <span>info@LeanTechCocom</span>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom" style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 25px; text-align: center;">
+                <p style="color: rgba(255, 255, 255, 0.6); font-size: 14px;">&copy; 2019-2025 <span style="color: #00B8FF; font-weight: 500;">LeanTechCo</span> | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-button" style="position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background: linear-gradient(135deg, #1331d2, #00B8FF); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(19, 49, 210, 0.3); cursor: pointer; z-index: 999; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';"> 
+            <i class="fas fa-comments" style="color: white; font-size: 24px;"></i>
+        </div>
+        <div class="chat-popup" style="position: fixed; bottom: 100px; right: 30px; width: 350px; background: white; border-radius: 16px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); overflow: hidden; z-index: 999; display: none;">
+            <div class="chat-header" style="background: linear-gradient(135deg, #1331d2, #00B8FF); padding: 20px; display: flex; justify-content: space-between; align-items: center;">
+                <h4 style="margin: 0; color: white; font-weight: 600; font-size: 18px;"><span style="font-weight: 700;">Hỗ Trợ Trực Tuyến</span></h4>
+                <span class="close-chat" style="color: white; font-size: 20px; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.transform='rotate(90deg)';" onmouseout="this.style.transform='rotate(0deg)';">&times;</span>
+            </div>
+            <div class="chat-body" style="height: 300px; overflow-y: auto; padding: 20px;">
+                <div class="chat-message incoming" style="background: #f0f4ff; padding: 15px; border-radius: 16px 16px 16px 0; margin-bottom: 15px; max-width: 75%; position: relative;">
+                    <p style="margin: 0; color: #1a1a1a; line-height: 1.5;">Xin chào! Tôi có thể giúp gì cho bạn?</p>
+                </div>
+                <div class="chat-messages">
+                    <!-- Chat messages will appear here -->
+                </div>
+            </div>
+            <div class="chat-footer" style="padding: 15px; display: flex; border-top: 1px solid #eaeaea;">
+                <input type="text" placeholder="Nhập tin nhắn..." style="flex: 1; border: 1px solid #eaeaea; border-radius: 24px; padding: 10px 15px; outline: none; transition: all 0.3s ease;" onmouseover="this.style.borderColor='#00B8FF';" onmouseout="this.style.borderColor='#eaeaea';">
+                <button style="background: linear-gradient(135deg, #1331d2, #00B8FF); border: none; border-radius: 50%; width: 40px; height: 40px; margin-left: 10px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';"><i class="fas fa-paper-plane" style="color: white;"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/meta.js"></script>
+    <script src="js/standalone-menu.js"></script>
+    <script src="js/improved-responsive.js"></script>
+    <script src="js/dynamic-hero.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 50
+        });
+        
+        // FAQ Toggle Script
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle answer visibility
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        answer.style.display = 'block';
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
